@@ -8,3 +8,4 @@ uvicorn[standard]==0.25.0
 tiktoken==0.5.2
 qdrant-client==1.9.0
 sentence-transformers==2.2.2
+transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
